@@ -248,12 +248,13 @@ td, th {
 	width: 560px;
 	margin: 2em auto;
 }
-@media screen and (max-width:480px) {
-	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo .video {
+@media screen and (max-width: 480px) {
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos {
 		width: auto;
+		text-align: center;
 	}
 
-	h1 {
+	h1 h2 {
 		text-align: center;
 	}
 
@@ -261,6 +262,13 @@ td, th {
 		position: static;
 	}
 
-	.lista-beneficios, .imagem-beneficios {
+	.lista-beneficios, .imagem-beneficios, .cabelo, .barba, .cabelo-barba, .produto-descricao, .produto-preco {
 		width: 100%;
 	}
+
+	.produtos li{
+		display: table;
+		margin: auto;
+		width: 80%;
+	}
+}
